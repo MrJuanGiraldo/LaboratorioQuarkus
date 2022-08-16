@@ -32,7 +32,7 @@ nb-configuration.xml
 *.swp
 *.swo
 
-# patch 
+# patch
 *.orig
 *.rej
 
