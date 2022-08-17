@@ -16,6 +16,11 @@ public class GreetingResource {
     public String hello() {
 
         LOG.info("The hello resosurce works fine");
+        LOG.error("The hello resosurce works fine");
+        LOG.debug("The hello resosurce works fine");
+        LOG.warn("The hello resosurce works fine");
+        LOG.fatal("The hello resosurce works fine");
+
         return "Hello from RESTEasy Reactive";
     }
 }
