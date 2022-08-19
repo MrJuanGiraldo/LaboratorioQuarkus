@@ -16,7 +16,6 @@ import static org.hamcrest.CoreMatchers.containsString;
 
 @QuarkusTest
 @TestHTTPEndpoint(LegumeResource.class)
-
 public class LegumeResourceTest {
 
     @Test
